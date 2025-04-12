@@ -43,7 +43,7 @@ jobs:
       - name: Set up dependencies
         run: |
           brew update
-          brew install cmake ninja
+          brew install cmake
 
       - name: Configure
         run: cmake -S . -B build -G "Ninja"
