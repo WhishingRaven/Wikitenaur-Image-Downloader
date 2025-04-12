@@ -1,9 +1,9 @@
 # Wikitenaur-Image-Downloader
 
 ## Overview
-The C++ Image Downloader is a command-line application that searches for image URLs in a structured dictionary format stored in text files within the `_ImagesList` directory. It downloads images based on a user-provided keyword, saving them in a directory named after the keyword.
+The Wikitenaur-Image-Downloader is a command-line application that searches for image URLs in a structured dictionary format stored in text files within the `_ImagesList` directory. It downloads images based on a user-provided keyword, saving them in a directory named after the keyword.
 
-## Features
+## Featuresw
 - Accepts a keyword as a command-line argument or prompts the user for input.
 - Searches through text files in the `_ImagesList` directory to find matching image URLs.
 - Downloads images concurrently for efficiency.
@@ -14,20 +14,25 @@ The C++ Image Downloader is a command-line application that searches for image U
 Wikitenaur-Image-Downloader
 ├── CMakeLists.txt          # CMake configuration file
 ├── README.md               # Project documentation
+├── build                   # Source files
+│   └── _ImagesList         # Directory containing text files with image URLs
+│       ├── 0
+│       │   └── 00.txt
+│       │   └── 0a.txt
+│       │   └── 0b.txt
+│       ├── 1
+│       │   └── example.txt
+│       │   └── 1a.txt
+│       │   └── 1b.txt
+        └── ...
 ├── src                     # Source files
 │   ├── main.cpp            # Entry point of the application
 │   ├── downloader.cpp      # Implementation of download functions
 │   ├── downloader.h        # Header file for downloader functions
 │   ├── file_utils.cpp      # Utility functions for file operations
 │   └── file_utils.h        # Header file for utility functions
-├── include                  # Header files
-│   └── config.h            # Configuration constants
-└── _ImagesList             # Directory containing text files with image URLs
-    ├── 0
-    │   └── example.txt
-    ├── 1
-    │   └── example.txt
-    └── ...
+└── include                 # Header files
+    └── config.h            # Configuration constants
 ```
 
 ## Building the Project
@@ -50,12 +55,14 @@ Wikitenaur-Image-Downloader
 ## Running the Application
 To run the application, use the following command:
 ```
-./Wikitenaur-Image-Downloader <keyword>
+./main <keyword> <maxConcurrency>
 ```
 Replace `<keyword>` with the desired search term. If no keyword is provided, the application will prompt you to enter one.
 
+You can set the maximum number of concurrent downloads using the second argument. Replace `<maxConcurrency>` with the desired number of threads. You can omit this second argument. Then it is 10 by default.
+
 ## Dependencies
-- C++11 or later
+- C++17 or later
 - CMake
 
 ## License
