@@ -28,7 +28,7 @@ jobs:
         run: ls -R build
 
       - name: Upload Executable
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Wikitenaur-Windows
           path: build/main.exe
@@ -55,7 +55,7 @@ jobs:
         run: ls -R build
 
       - name: Upload Executable
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Wikitenaur-macOS
           path: build/main
