@@ -13,13 +13,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up dependencies
+      - name: Set up vcpkg
         run: |
-          choco install cmake --installargs '"ADD_CMAKE_TO_PATH=System"' -y --no-progress
-          choco install curl --source=cygwin -y --no-progress
+          git clone https://github.com/microsoft/vcpkg.git
+          ./vcpkg/bootstrap-vcpkg.bat
+          ./vcpkg/vcpkg install curl
 
       - name: Configure
-        run: cmake -S . -B build -G "Ninja" -DCURL_INCLUDE_DIR="C:/tools/cygwin/usr/include" -DCURL_LIBRARY="C:/tools/cygwin/usr/lib/libcurl.a"
+        run: cmake -S . -B build -G "Ninja" -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake
 
       - name: Build
         run: cmake --build build --config Release
@@ -58,4 +59,31 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Wikitenaur-macOS
+          path: build/main
+
+  build-linux:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake ninja-build g++ libcurl4-openssl-dev
+
+      - name: Configure
+        run: cmake -S . -B build -G "Ninja"
+
+      - name: Build
+        run: cmake --build build --config Release
+
+      - name: Debug build directory
+        run: ls -R build
+
+      - name: Upload Executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: Wikitenaur-Linux
           path: build/main
