@@ -18,14 +18,13 @@ jobs:
           choco install cmake --installargs '"ADD_CMAKE_TO_PATH=System"' -y --no-progress
           choco install curl -y --no-progress
 
-      - name: Debug curl installation
+      - name: Download and extract curl
         run: |
-          dir "C:/ProgramData/chocolatey/lib/curl"
-          dir "C:/ProgramData/chocolatey/lib/curl/include"
-          dir "C:/ProgramData/chocolatey/lib/curl/lib"
+          curl -LO https://curl.se/windows/dl-8.13.0/curl-8.13.0-win64-mingw.zip
+          tar -xf curl-8.13.0-win64-mingw.zip -C C:/curl
 
       - name: Configure
-        run: cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -DCURL_INCLUDE_DIR="C:/ProgramData/chocolatey/lib/curl/include" -DCURL_LIBRARY="C:/ProgramData/chocolatey/lib/curl/lib/libcurl.lib"
+        run: cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -DCURL_INCLUDE_DIR="C:/curl/include" -DCURL_LIBRARY="C:/curl/lib/libcurl.lib"
 
       - name: Build
         run: cmake --build build --config Release
