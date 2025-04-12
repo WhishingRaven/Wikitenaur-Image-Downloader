@@ -1,4 +1,3 @@
-// filepath: /cpp-image-downloader/cpp-image-downloader/src/file_utils.cpp
 #include "file_utils.h"
 #include <iostream>
 #include <fstream>
@@ -48,4 +47,32 @@ std::vector<std::string> search_files(const std::unordered_map<std::string, std:
 bool create_directory(const std::string& dir_name) {
     // Create a directory if it does not exist
     return std::filesystem::create_directory(dir_name);
+}
+
+std::vector<std::string> searchFilesForKeyword(const std::string& keyword, const std::string& directory);
+std::string getUrlFromFile(const std::string& filepath);
+
+// Implementation of searchFilesForKeyword
+std::vector<std::string> searchFilesForKeyword(const std::string& keyword, const std::string& directory) {
+    std::vector<std::string> matchingFiles;
+    for (const auto& entry : std::filesystem::recursive_directory_iterator(directory)) {
+        if (entry.is_regular_file()) {
+            const std::string filename = entry.path().filename().string();
+            if (filename.find(keyword) != std::string::npos) {
+                matchingFiles.push_back(entry.path().string());
+            }
+        }
+    }
+    return matchingFiles;
+}
+
+// Implementation of getUrlFromFile
+std::string getUrlFromFile(const std::string& filepath) {
+    std::ifstream file(filepath);
+    std::string url;
+    if (file.is_open()) {
+        std::getline(file, url); // Assumes the URL is on the first line
+        file.close();
+    }
+    return url;
 }

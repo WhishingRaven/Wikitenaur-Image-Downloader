@@ -22,4 +22,8 @@ std::vector<std::string> parse_file(const std::string& file_path);
 // and returns a vector of filenames that contain the keyword.
 std::vector<std::string> search_for_keyword(const std::vector<std::string>& filenames, const std::string& keyword);
 
+std::vector<std::string> searchFilesForKeyword(const std::string& keyword, const std::string& directory);
+std::string getUrlFromFile(const std::string& filepath);
+bool createDirectory(const std::string& dir_name);
+
 #endif // FILE_UTILS_H
