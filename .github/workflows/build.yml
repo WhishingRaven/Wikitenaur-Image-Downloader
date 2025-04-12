@@ -13,8 +13,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Install dependencies
+        run: |
+          choco install cmake --installargs '"ADD_CMAKE_TO_PATH=System"' -y --no-progress
+          choco install curl -y --no-progress
+
       - name: Configure
-        run: cmake -S . -B build -G "Visual Studio 17 2022" -A x64
+        run: cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -DCURL_INCLUDE_DIR="C:/Program Files/curl/include" -DCURL_LIBRARY="C:/Program Files/curl/lib/libcurl.lib"
 
       - name: Build
         run: cmake --build build --config Release
@@ -26,7 +31,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: main-Windows
-          path: build/main.exe
+          path: build/Release/main.exe
 
   build-macos:
     runs-on: macos-latest
