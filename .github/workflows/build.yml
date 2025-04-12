@@ -19,6 +19,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Install dependencies (macOS only)
+        if: runner.os == 'macOS'
+        run: |
+          brew update
+          brew install cmake
+
       - name: Set up CMake
         uses: jwlawson/actions-setup-cmake@v1
         with:
