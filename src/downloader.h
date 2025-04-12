@@ -1,4 +1,4 @@
-// File: /cpp-image-downloader/cpp-image-downloader/src/downloader.h
+// File: /Wikitenaur-Image-Downloader/Wikitenaur-Image-Downloader/src/downloader.h
 
 #ifndef DOWNLOADER_H
 #define DOWNLOADER_H

@@ -1,4 +1,4 @@
-// filepath: /cpp-image-downloader/cpp-image-downloader/src/downloader.cpp
+// filepath: /Wikitenaur-Image-Downloader/Wikitenaur-Image-Downloader/src/downloader.cpp
 #include "downloader.h"
 #include <iostream>
 #include <fstream>
@@ -38,7 +38,7 @@ bool downloadFile(const std::string& url, const std::string& savePath) {
 
             fclose(file); // Close the file after download
         } else {
-            std::cerr << "Error opening file for writing: " << savePath << std::endl;
+            // std::cerr << "Error opening file for writing: " << savePath << std::endl;
             curl_easy_cleanup(curl);
             return false; // Return false if file cannot be opened
         }

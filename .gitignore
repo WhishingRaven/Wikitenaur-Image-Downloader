@@ -1,4 +1,7 @@
-# 📦 빌드 결과물 (컴파일 파일들)
+# Image Dictionary of Wikitenaur
+_ImagesList
+
+# 📦 Build Artifacts (Compiled files)
 *.o
 *.obj
 *.so
@@ -8,23 +11,23 @@
 *.exe
 *.out
 
-# 🛠️ CMake 생성 파일
+# 🛠️ CMake generating files
 CMakeFiles/
-CMakeCache.txt
+# CMakeCache.txt
 cmake_install.cmake
 Makefile
 build/
 build-*/
 
-# ⚙️ VS Code 설정
+# ⚙️ VS Code settings
 .vscode/
 
-# 📃 로그, 디버그 관련
+# 📃 Log & Debug
 *.log
 *.dSYM/
 *.pdb
 
-# 💻 운영체제별 잡파일
+# 💻 OS Files
 .DS_Store
 Thumbs.db
 desktop.ini
