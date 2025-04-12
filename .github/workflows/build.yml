@@ -16,11 +16,10 @@ jobs:
       - name: Set up dependencies
         run: |
           choco install cmake --installargs '"ADD_CMAKE_TO_PATH=System"' -y --no-progress
-          choco install ninja -y --no-progress
-          choco install curl -y --no-progress
+          choco install curl --source=cygwin -y --no-progress
 
       - name: Configure
-        run: cmake -S . -B build -G "Ninja"
+        run: cmake -S . -B build -G "Ninja" -DCURL_INCLUDE_DIR="C:/tools/cygwin/usr/include" -DCURL_LIBRARY="C:/tools/cygwin/usr/lib/libcurl.a"
 
       - name: Build
         run: cmake --build build --config Release
