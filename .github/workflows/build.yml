@@ -10,27 +10,25 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      # Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Set up dependencies
       - name: Set up dependencies
         run: |
           choco install cmake --installargs '"ADD_CMAKE_TO_PATH=System"' -y
           choco install ninja -y
 
-      # Configure the project with CMake
       - name: Configure
         run: cmake -S . -B build -G "Ninja"
 
-      # Build the project
       - name: Build
         run: cmake --build build --config Release
 
-      # Upload the executable as an artifact
+      - name: Debug build directory
+        run: ls -R build
+
       - name: Upload Executable
         uses: actions/upload-artifact@v2
         with:
           name: Wikitenaur-Windows
-          path: build/*
+          path: build/main.exe
