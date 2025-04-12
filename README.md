@@ -60,7 +60,7 @@ If you prefer not to build the project manually, you can download prebuilt execu
 1. Go to the **Actions** tab in the GitHub repository.
 2. Select the most recent workflow run under the **Build** workflow.
 3. Scroll down to the **Artifacts** section at the bottom of the workflow page.
-4. Download the artifact named `Wikitenaur-Image-Downloader`.
+4. Download the artifact named `main-{OSname}`.
 5. Extract the downloaded file to access the executables for your operating system.
 
 You can then run the executable directly from your terminal or command prompt.

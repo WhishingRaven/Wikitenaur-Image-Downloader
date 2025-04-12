@@ -31,7 +31,7 @@ jobs:
       - name: Upload Executable
         uses: actions/upload-artifact@v4
         with:
-          name: Wikitenaur-Windows
+          name: main-Windows
           path: build/main.exe
 
   build-macos:
@@ -44,7 +44,7 @@ jobs:
       - name: Set up dependencies
         run: |
           brew update
-          brew install --formula cmake
+          brew install --formula cmake curl
 
       - name: Configure
         run: cmake -S . -B build -G "Ninja"
@@ -58,7 +58,7 @@ jobs:
       - name: Upload Executable
         uses: actions/upload-artifact@v4
         with:
-          name: Wikitenaur-macOS
+          name: main-macOS
           path: build/main
 
   build-linux:
@@ -71,10 +71,10 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y cmake ninja-build g++ libcurl4-openssl-dev
+          sudo apt-get install -y cmake ninja-build g++ libcurl4-openssl-dev pkg-config
 
       - name: Configure
-        run: cmake -S . -B build -G "Ninja"
+        run: cmake -S . -B build -G "Ninja" -DCMAKE_USE_PKGCONFIG=ON
 
       - name: Build
         run: cmake --build build --config Release
@@ -85,5 +85,5 @@ jobs:
       - name: Upload Executable
         uses: actions/upload-artifact@v4
         with:
-          name: Wikitenaur-Linux
+          name: main-Linux
           path: build/main
