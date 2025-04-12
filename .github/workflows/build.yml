@@ -1,4 +1,4 @@
-name: Build Windows Executable
+name: Build Executables
 
 on:
   push:
@@ -32,3 +32,30 @@ jobs:
         with:
           name: Wikitenaur-Windows
           path: build/main.exe
+
+  build-macos:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up dependencies
+        run: |
+          brew update
+          brew install cmake ninja
+
+      - name: Configure
+        run: cmake -S . -B build -G "Ninja"
+
+      - name: Build
+        run: cmake --build build --config Release
+
+      - name: Debug build directory
+        run: ls -R build
+
+      - name: Upload Executable
+        uses: actions/upload-artifact@v3
+        with:
+          name: Wikitenaur-macOS
+          path: build/main
