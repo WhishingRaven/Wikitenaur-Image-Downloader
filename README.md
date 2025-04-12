@@ -3,7 +3,7 @@
 ## Overview
 The Wikitenaur-Image-Downloader is a command-line application that searches for image URLs in a structured dictionary format stored in text files within the `_ImagesList` directory. It downloads images based on a user-provided keyword, saving them in a directory named after the keyword.
 
-## Featuresw
+## Features
 - Accepts a keyword as a command-line argument or prompts the user for input.
 - Searches through text files in the `_ImagesList` directory to find matching image URLs.
 - Downloads images concurrently for efficiency.
