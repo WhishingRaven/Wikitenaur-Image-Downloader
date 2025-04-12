@@ -1,17 +1,19 @@
-// File: /Wikitenaur-Image-Downloader/Wikitenaur-Image-Downloader/src/downloader.h
-
 #ifndef DOWNLOADER_H
 #define DOWNLOADER_H
 
 #include <string>
 #include <vector>
+#include <future>
 
 // Function to download a file from a given URL and save it to a specified directory.
 // Parameters:
 // - url: The URL of the file to download.
 // - save_dir: The directory where the downloaded file will be saved.
 // Returns: A boolean indicating success or failure of the download operation.
-bool downloadFile(const std::string& url, const std::string& save_dir);
+bool downloadFile(const std::string& filename, const std::string& url, const std::string& save_dir);
+
+// Download file 병렬
+std::future<bool> downloadFileAsync(const std::string& filename, const std::string& url, const std::string& savePath);
 
 // Function to download multiple files from a list of URLs.
 // Parameters:

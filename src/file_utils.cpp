@@ -14,8 +14,9 @@ bool create_directory(const std::string& dir_name) {
 }
 
 // Implementation of searchFilesForKeyword
-std::vector<std::string> searchFilesForKeyword(const std::string& keyword, const std::string& directory) {
-    std::vector<std::string> matchingFilesURLs;
+std::vector<std::pair<std::string, std::string>> searchFilesForKeyword(const std::string& keyword, const std::string& directory) {
+    std::vector<std::pair<std::string, std::string>> matchingFilesURLs;
+
     std::regex exclude_pattern(R"(.*-[a-zA-Z]\.(png|jpg|jpeg)$)"); // exclude '-{single alphabet}
 
     for (const auto& entry : std::filesystem::recursive_directory_iterator(directory)) {
@@ -27,17 +28,16 @@ std::vector<std::string> searchFilesForKeyword(const std::string& keyword, const
                 size_t delimiter_pos = line.find("->");
                 
                 if (delimiter_pos != std::string::npos) {
-                    std::string key = line.substr(0, delimiter_pos);
-                    std::string value = line.substr(delimiter_pos + 2);
+                    std::string key = line.substr(0, delimiter_pos - 1);
+                    std::string value = line.substr(delimiter_pos + 3);
 
-                    if (key.find(keyword) != std::string::npos && !std::regex_match(value, exclude_pattern)) {
-                        matchingFilesURLs.push_back(value);
+                    if (key.find(keyword) != std::string::npos && !std::regex_match(key, exclude_pattern)) {
+                        matchingFilesURLs.push_back(std::make_pair(key, value)); // Add <key, value> to the vector
                     }
                 }
             }
         }
     }
 
-    std::cout << "size of matchingFilesURLs: " << matchingFilesURLs.size() << std::endl;
     return matchingFilesURLs;
 }
