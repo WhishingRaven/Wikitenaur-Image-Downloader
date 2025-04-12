@@ -15,8 +15,9 @@ jobs:
 
       - name: Set up dependencies
         run: |
-          choco install cmake --installargs '"ADD_CMAKE_TO_PATH=System"' -y
-          choco install ninja -y
+          choco install cmake --installargs '"ADD_CMAKE_TO_PATH=System"' -y --no-progress
+          choco install ninja -y --no-progress
+          choco install curl -y --no-progress
 
       - name: Configure
         run: cmake -S . -B build -G "Ninja"
@@ -43,7 +44,7 @@ jobs:
       - name: Set up dependencies
         run: |
           brew update
-          brew install cmake
+          brew install--formula cmake
 
       - name: Configure
         run: cmake -S . -B build -G "Ninja"
