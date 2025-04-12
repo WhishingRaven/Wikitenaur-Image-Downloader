@@ -16,7 +16,7 @@ bool create_directory(const std::string& dir_name) {
 // Implementation of searchFilesForKeyword
 std::vector<std::string> searchFilesForKeyword(const std::string& keyword, const std::string& directory) {
     std::vector<std::string> matchingFilesURLs;
-    std::regex exclude_pattern(".*-[a-z]\\.[a-z]+$"); // 확장자 앞에 -<단일 소문자>가 있는 패턴
+    std::regex exclude_pattern(R"(.*-[a-zA-Z]\.(png|jpg|jpeg)$)"); // exclude '-{single alphabet}
 
     for (const auto& entry : std::filesystem::recursive_directory_iterator(directory)) {
         if (entry.is_regular_file() && entry.path().extension() == ".txt") {
@@ -25,12 +25,12 @@ std::vector<std::string> searchFilesForKeyword(const std::string& keyword, const
 
             while (std::getline(file, line)) {
                 size_t delimiter_pos = line.find("->");
+                
                 if (delimiter_pos != std::string::npos) {
                     std::string key = line.substr(0, delimiter_pos);
                     std::string value = line.substr(delimiter_pos + 2);
 
-                    if (key.find(keyword) != std::string::npos && !std::regex_match(key, exclude_pattern)) {
-                        std::cout << "key: " << key << std::endl;
+                    if (key.find(keyword) != std::string::npos && !std::regex_match(value, exclude_pattern)) {
                         matchingFilesURLs.push_back(value);
                     }
                 }

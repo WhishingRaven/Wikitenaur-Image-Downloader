@@ -25,10 +25,10 @@ int main(int argc, char* argv[]) {
     }
 
     // Search for files in the _ImagesList directory that match the keyword
-    std::vector<std::string> matchingFiles = searchFilesForKeyword(keyword, "_ImagesList");
+    std::vector<std::string> matchingFilesURLs = searchFilesForKeyword(keyword, "_ImagesList");
 
     // Check if any files were found
-    if (matchingFiles.empty()) {
+    if (matchingFilesURLs.empty()) {
         std::cout << "No files found containing the keyword: " << keyword << std::endl;
         return 1; // Exit with an error code
     }
@@ -38,11 +38,11 @@ int main(int argc, char* argv[]) {
     std::filesystem::create_directory(downloadDir);
 
     // Download the files corresponding to the matching keywords
-    for (const auto& file : matchingFiles) {
-        std::string url = getUrlFromFile(file); // Get the URL from the file
-        if (!url.empty()) {
-            downloadFile(url, downloadDir); // Download the file
-        }
+    for (const auto& file : matchingFilesURLs) {
+        // std::string url = getUrlFromFile(file); // Get the URL from the file
+        // if (!url.empty()) {
+            downloadFile(file, downloadDir); // Download the file
+        // }
     }
 
     std::cout << "Download process completed." << std::endl;
