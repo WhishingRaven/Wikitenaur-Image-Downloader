@@ -3,6 +3,7 @@
 #include <vector>
 #include <filesystem>
 #include <future>
+#include <algorithm>
 #include "downloader.h"
 #include "file_utils.h"
 
