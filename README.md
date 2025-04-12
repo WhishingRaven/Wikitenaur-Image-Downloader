@@ -13,6 +13,7 @@ The Wikitenaur-Image-Downloader is a command-line application that searches for 
 ```
 Wikitenaur-Image-Downloader
 ├── CMakeLists.txt          # CMake configuration file
+├── LICENSE                 # Basic MIT License
 ├── README.md               # Project documentation
 ├── build                   # Source files
 │   └── _ImagesList         # Directory containing text files with image URLs
