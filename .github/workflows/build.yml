@@ -44,7 +44,7 @@ jobs:
       - name: Set up dependencies
         run: |
           brew update
-          brew install--formula cmake
+          brew install --formula cmake
 
       - name: Configure
         run: cmake -S . -B build -G "Ninja"
