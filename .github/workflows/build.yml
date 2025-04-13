@@ -20,9 +20,6 @@ jobs:
           curl -LO https://curl.se/windows/dl-8.3.0_2/curl-8.3.0_2-win64-mingw.zip
           tar -xf curl-8.3.0_2-win64-mingw.zip -C C:/curl
 
-      - name: Debug curl directory
-        run: dir C:/curl /s
-
       - name: Set up environment variables
         run: |
           setx PATH "%PATH%;C:\curl\bin;C:\Program Files\mingw-w64\bin"
