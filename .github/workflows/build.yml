@@ -13,23 +13,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install vcpkg
+      - name: Install dependencies
         run: |
-          git clone https://github.com/microsoft/vcpkg.git
-          .\vcpkg\bootstrap-vcpkg.bat
+          choco install make mingw -y --no-progress
+          curl -LO https://curl.se/windows/dl-8.3.0_2/curl-8.3.0_2-win64-mingw.zip
+          tar -xf curl-8.3.0_2-win64-mingw.zip -C C:/curl
 
-      - name: Install curl with vcpkg
-        run: .\vcpkg\vcpkg install curl:x64-windows
-
-      - name: Download and extract curl
+      - name: Set up environment variables
         run: |
-          curl -LO https://curl.se/windows/dl-8.13.0/curl-8.13.0-win64-mingw.zip
-          tar -xf curl-8.13.0-win64-mingw.zip -C C:/curl
-
-      - name: Configure environment
-        run: |
-          setx VCPKG_ROOT "%CD%\vcpkg"
-          setx PATH "%PATH%;%CD%\vcpkg\installed\x64-windows\bin"
+          setx PATH "%PATH%;C:\curl\bin;C:\Program Files\mingw-w64\bin"
 
       - name: Build with Makefile
         run: |
