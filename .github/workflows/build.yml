@@ -18,11 +18,14 @@ jobs:
           choco install make mingw curl -y --no-progress
 
       - name: Debug curl installation
-        run: dir C:/curl /s
+        run: dir "C:\ProgramData\chocolatey\lib\curl" /s
+
+      - name: Check curl executable
+        run: where curl
 
       - name: Set up environment variables
         run: |
-          setx PATH "%PATH%;C:\curl\bin;C:\Program Files\mingw-w64\bin"
+          setx PATH "%PATH%;C:\ProgramData\chocolatey\lib\curl\tools;C:\Program Files\mingw-w64\bin"
 
       - name: Build with Makefile
         run: |
