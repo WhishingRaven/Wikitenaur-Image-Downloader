@@ -18,7 +18,7 @@ jobs:
           choco install make mingw curl -y --no-progress
 
       - name: Debug curl installation
-        run: dir "C:\ProgramData\chocolatey\lib\curl" /s
+        run: dir "C:\ProgramData\chocolatey\lib\curl\tools" /s
 
       - name: Check curl executable
         run: where curl
