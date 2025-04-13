@@ -13,13 +13,13 @@ all: $(TARGET)
 
 # 실행 파일 생성
 $(TARGET): $(OBJ)
-    mkdir -p build
-    $(CXX) -o $@ $^ $(LDFLAGS)
+	mkdir -p build
+	$(CXX) -o $@ $^ $(LDFLAGS)
 
 # 개별 소스 파일 컴파일
 %.o: %.cpp
-    $(CXX) $(CXXFLAGS) -c $< -o $@
+	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 # 클린 타겟
 clean:
-    rm -rf $(OBJ) $(TARGET)
+	rm -rf $(OBJ) $(TARGET)
