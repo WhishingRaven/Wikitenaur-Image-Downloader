@@ -21,6 +21,11 @@ jobs:
       - name: Install curl with vcpkg
         run: .\vcpkg\vcpkg install curl:x64-windows
 
+      - name: Download and extract curl
+        run: |
+          curl -LO https://curl.se/windows/dl-8.13.0/curl-8.13.0-win64-mingw.zip
+          tar -xf curl-8.13.0-win64-mingw.zip -C C:/curl
+
       - name: Configure environment
         run: |
           setx VCPKG_ROOT "%CD%\vcpkg"
