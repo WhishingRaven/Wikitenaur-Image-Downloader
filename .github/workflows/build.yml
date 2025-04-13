@@ -17,8 +17,8 @@ jobs:
         run: |
           choco install make mingw curl -y --no-progress
 
-      - name: Debug curl installation
-        run: dir C:/curl /s
+      # - name: Debug curl installation
+      #   run: dir C:/curl /s
 
       - name: Set up environment variables
         run: |
