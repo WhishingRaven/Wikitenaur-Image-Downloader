@@ -15,19 +15,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-          choco install cmake --installargs '"ADD_CMAKE_TO_PATH=System"' -y --no-progress
-          choco install curl -y --no-progress
-
-      - name: Download and extract curl
-        run: |
+          choco install make mingw -y --no-progress
           curl -LO https://curl.se/windows/dl-8.13.0/curl-8.13.0-win64-mingw.zip
           tar -xf curl-8.13.0-win64-mingw.zip -C C:/curl
 
-      - name: Configure
-        run: cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -DCURL_INCLUDE_DIR="C:/curl/include" -DCURL_LIBRARY="C:/curl/lib/libcurl.lib"
+      - name: Set up environment variables
+        run: |
+          setx PATH "%PATH%;C:\curl\bin;C:\Program Files\mingw-w64\bin"
 
-      - name: Build
-        run: cmake --build build --config Release
+      - name: Build with Makefile
+        run: |
+          make -f Makefile
 
       - name: Debug build directory
         run: dir build
@@ -36,7 +34,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: main-Windows
-          path: build/Release/main.exe
+          path: build/main.exe
 
   build-macos:
     runs-on: macos-latest
