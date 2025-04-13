@@ -20,7 +20,6 @@ jobs:
       - name: Debug curl installation
         run: |
             ls C:\ProgramData\chocolatey\lib\curl\tools
-            dir "C:\ProgramData\chocolatey\lib\curl\tools" /s
 
       - name: Check curl executable
         run: where curl
