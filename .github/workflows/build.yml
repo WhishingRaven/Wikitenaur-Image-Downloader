@@ -13,20 +13,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install vcpkg
         run: |
-          choco install make mingw curl -y --no-progress
+          git clone https://github.com/microsoft/vcpkg.git
+          .\vcpkg\bootstrap-vcpkg.bat
 
-      - name: Debug curl installation
+      - name: Install curl with vcpkg
+        run: .\vcpkg\vcpkg install curl:x64-windows
+
+      - name: Configure environment
         run: |
-            ls C:\ProgramData\chocolatey\lib\curl\tools
-
-      - name: Check curl executable
-        run: where curl
-
-      - name: Set up environment variables
-        run: |
-          setx PATH "%PATH%;C:\ProgramData\chocolatey\lib\curl\tools;C:\Program Files\mingw-w64\bin"
+          setx VCPKG_ROOT "%CD%\vcpkg"
+          setx PATH "%PATH%;%CD%\vcpkg\installed\x64-windows\bin"
 
       - name: Build with Makefile
         run: |
