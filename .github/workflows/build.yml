@@ -15,9 +15,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          choco install make mingw -y --no-progress
+          choco install make mingw 7zip -y --no-progress
           curl -LO https://curl.se/windows/dl-8.13.0/curl-8.13.0-win64-mingw.zip
-          tar -xf curl-8.13.0-win64-mingw.zip -C C:/curl
+          7z x curl-8.13.0-win64-mingw.zip -oC:/curl
 
       - name: Set up environment variables
         run: |
