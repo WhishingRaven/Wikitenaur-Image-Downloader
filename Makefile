@@ -1,4 +1,4 @@
-# 컴파일러 및 플래그 설정
+# 컴파일러 및 플래그 설정 들여쓰기
 CXX = g++
 CXXFLAGS = -std=c++17 -Iinclude -I"C:/curl/include"
 LDFLAGS = -L"C:/curl/lib" -lcurl
