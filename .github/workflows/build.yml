@@ -19,7 +19,7 @@ jobs:
 
       - name: Download curl.h and dependencies
         run: |
-          git clone https://github.com/curl
+          git clone https://github.com/curl/curl
           mkdir -p C:\curl\include\
           move curl\include\curl C:\curl\include\
 
