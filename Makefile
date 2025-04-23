@@ -1,6 +1,6 @@
 # 컴파일러 및 플래그 설정
 CXX = g++
-CXXFLAGS = -std=c++17 -Iinclude -I"C:/curl/include"
+CXXFLAGS = -std=c++17 -Iinclude -I"C:\curl\include\curl"
 LDFLAGS = -L"C:\curl\lib" -lcurl
 
 # 소스 파일 및 타겟 설정
