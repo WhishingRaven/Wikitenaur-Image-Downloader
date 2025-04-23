@@ -1,7 +1,7 @@
 # 컴파일러 및 플래그 설정
 CXX = g++
-CXXFLAGS = -std=c++17 -Iinclude -I"C:\curl\include\curl"
-LDFLAGS = -L"C:\curl\lib" -lcurl
+CXXFLAGS = -std=c++17 -Iinclude -I"D:/a/Wikitenaur-Image-Downloader/Wikitenaur-Image-Downloader/curl/include"
+LDFLAGS = -L"D:/a/Wikitenaur-Image-Downloader/Wikitenaur-Image-Downloader/curl/lib" -lcurl
 
 # 소스 파일 및 타겟 설정
 SRC = src/main.cpp src/downloader.cpp src/file_utils.cpp
