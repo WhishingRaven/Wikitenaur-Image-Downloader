@@ -65,6 +65,16 @@ bool downloadWithConcurrencyLimit(
 
 // Main function: Entry point of the application
 int main(int argc, char* argv[]) {
+    // Set the current working directory to the directory of the executable
+    std::filesystem::path exePath = std::filesystem::current_path();
+    std::cout << "Current working directory: " << exePath << std::endl;
+
+    // Check if _ImagesList exists
+    if (!std::filesystem::exists("_ImagesList")) {
+        std::cerr << "Error: _ImagesList directory not found in " << exePath << std::endl;
+        return 1; // Exit with an error code
+    }
+
     std::string keyword;
 
     // Check if a command-line argument is provided
