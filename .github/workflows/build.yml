@@ -15,7 +15,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          choco install make mingw libcurl -y --no-progress
+          choco install make mingw curl -y --no-progress
 
       - name: Set up environment variables
         run: |
