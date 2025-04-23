@@ -15,7 +15,7 @@ Wikitenaur-Image-Downloader
 ├── CMakeLists.txt          # CMake configuration file
 ├── LICENSE                 # Basic MIT License
 ├── README.md               # Project documentation
-├── build                   # Source files
+├── build                   # Build directory for compiled executables
 │   └── _ImagesList         # Directory containing text files with image URLs
 │       ├── 0
 │       │   └── 00.txt
@@ -36,23 +36,6 @@ Wikitenaur-Image-Downloader
     └── config.h            # Configuration constants
 ```
 
-## Building the Project
-1. Ensure you have CMake installed on your system.
-2. Open a terminal and navigate to the project directory.
-3. Create a build directory:
-   ```
-   mkdir build
-   cd build
-   ```
-4. Run CMake to configure the project:
-   ```
-   cmake ..
-   ```
-5. Build the project:
-   ```
-   cmake --build .
-   ```
-
 ## Downloading Prebuilt Executables
 
 If you prefer not to build the project manually, you can download prebuilt executables for Windows, macOS, and Linux from the GitHub Actions Artifacts:
@@ -63,16 +46,61 @@ If you prefer not to build the project manually, you can download prebuilt execu
 4. Download the artifact named `main-{OSname}`.
 5. Extract the downloaded file to access the executables for your operating system.
 
-You can then run the executable directly from your terminal or command prompt.
-
 ## Running the Application
-To run the application, use the following command:
-```
-./main <keyword> <maxConcurrency>
-```
-Replace `<keyword>` with the desired search term. If no keyword is provided, the application will prompt you to enter one.
 
-You can set the maximum number of concurrent downloads using the second argument. Replace `<maxConcurrency>` with the desired number of threads. You can omit this second argument. Then it is 10 by default.
+You can run the application in one of the following ways:
+
+### Option 1: Run with a keyword
+```bash
+./main <keyword>
+```
+Replace `<keyword>` with the desired search term. The application will search for matching image URLs and download them.
+
+### Option 2: Run without a keyword
+```bash
+./main
+```
+If no keyword is provided, the application will prompt you to enter one.
+
+### Option 3: Double-click the executable
+Simply double-click the executable file. The application will prompt you to enter a keyword.
+
+### Notes
+- Ensure that the `_ImagesList` directory is in the same location as the executable.
+- The application will create a directory named after the keyword to save the downloaded images.
+
+## Building the Project
+
+If you prefer to build the project manually, follow these steps:
+
+### 1. Prerequisites
+- Ensure you have CMake installed on your system.
+- Install a C++17-compatible compiler.
+
+### 2. Build Instructions
+1. Open a terminal and navigate to the project directory.
+2. Create a build directory:
+   ```bash
+   mkdir build
+   cd build
+   ```
+3. Run CMake to configure the project:
+   ```bash
+   cmake ..
+   ```
+4. Build the project:
+   ```bash
+   cmake --build .
+   ```
+
+### 3. Windows Users: Modify the Makefile
+If you are building the project on Windows, you need to modify the `Makefile` to set the correct paths for the `CXXFLAGS` and `LDFLAGS` variables. Update the `Makefile` as follows:
+
+```makefile
+CXXFLAGS = -std=c++17 -I<path_to_include>
+LDFLAGS = -L<path_to_lib> -lcurl
+```
+Replace `<path_to_include>` with the path to the `curl` include directory and `<path_to_lib>` with the path to the `curl` library directory.
 
 ## Dependencies
 - C++17 or later
