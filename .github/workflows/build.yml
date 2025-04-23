@@ -15,11 +15,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-          choco install make mingw curl -y --no-progress
+          choco install make mingw -y --no-progress
+
+      - name: Download curl.h and dependencies
+        run: |
+          curl -L -o curl.h https://raw.githubusercontent.com/commontk/libcurl/master/curl/curl.h
+          mkdir -p C:\curl\include\curl
+          move curl.h C:\curl\include\curl\
 
       - name: Set up environment variables
         run: |
-          setx PATH "%PATH%;C:\curl\bin;C:\Program Files\mingw-w64\bin"
+          setx PATH "%PATH%;C:\Program Files\mingw-w64\bin"
 
       - name: Build with Makefile
         run: |
