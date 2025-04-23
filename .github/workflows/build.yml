@@ -19,9 +19,9 @@ jobs:
 
       - name: Download curl.h and dependencies
         run: |
-          curl -L -o curl.h https://raw.githubusercontent.com/commontk/libcurl/master/curl/curl.h
+          curl -L -o curl.h https://raw.githubusercontent.com/commontk/libcurl/master/curl/
           mkdir -p C:\curl\include\curl
-          move curl.h C:\curl\include\curl\
+          move curl.h C:\curl\include\
 
       - name: Set up environment variables
         run: |
