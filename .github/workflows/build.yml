@@ -22,7 +22,6 @@ jobs:
           git clone https://github.com/commontk/libcurl.git
           mkdir -p C:\curl\include\
           move libcurl\curl C:\curl\include\
-          curl -L -o curl https://raw.githubusercontent.com/commontk/libcurl/master/curl/
 
       - name: Set up environment variables
         run: |
