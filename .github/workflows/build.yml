@@ -22,10 +22,6 @@ jobs:
           git clone https://github.com/curl/curl
           mkdir -p C:\curl\include\
           move curl\include\curl C:\curl\include\
-          curl -L -o libcurl.zip https://curl.se/windows/dl-7.88.1_3/curl-7.88.1_3-win64-mingw.zip
-          powershell -Command "Expand-Archive -Path libcurl.zip -DestinationPath C:\curl"
-          mkdir -p C:\curl\lib
-          move C:\curl\curl-7.88.1_3-win64-mingw\lib\* C:\curl\lib\
 
       - name: Set up environment variables
         run: |
