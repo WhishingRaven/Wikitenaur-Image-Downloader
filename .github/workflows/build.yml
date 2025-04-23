@@ -15,7 +15,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          choco install make mingw -y --no-progress
+          choco install make mingw curl -y --no-progress
 
       - name: Download curl.h and dependencies
         run: |
