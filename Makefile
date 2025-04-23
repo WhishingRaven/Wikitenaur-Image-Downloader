@@ -14,7 +14,7 @@ all: $(TARGET)
 # 실행 파일 생성
 $(TARGET): $(OBJ)
 	mkdir -p build
-	$(CXX) -o $@ $^ $(LDFLAGS)
+	$(CXX) -o $@ $(OBJ) $(LDFLAGS)
 
 # 개별 소스 파일 컴파일
 %.o: %.cpp
