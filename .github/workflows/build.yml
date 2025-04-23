@@ -19,9 +19,9 @@ jobs:
 
       - name: Download curl.h and dependencies
         run: |
-          git clone https://github.com/commontk/libcurl.git
+          git clone https://github.com/curl
           mkdir -p C:\curl\include\
-          move libcurl\curl C:\curl\include\
+          move curl\include\curl C:\curl\include\
 
       - name: Set up environment variables
         run: |
