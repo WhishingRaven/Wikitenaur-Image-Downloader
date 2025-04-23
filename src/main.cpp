@@ -7,6 +7,12 @@
 #include "downloader.h"
 #include "file_utils.h"
 
+#ifdef _WIN32
+#include "C:\\curl\\include\\curl\\curl.h" // Windows 환경에서 curl.h 경로
+#else
+#include <curl/curl.h> // 다른 플랫폼(Linux/Mac)에서는 기본 경로 사용
+#endif
+
 // Function to display a prompt for the user to enter a keyword
 std::string getKeywordFromUser() {
     std::string keyword;
