@@ -1,4 +1,4 @@
-# 컴파일러 및 플래그 설정
+# 컴파일러 및 플래그 설정(Github Action을 위한 경로)
 CXX = g++
 CXXFLAGS = -std=c++17 -Iinclude -I"D:/a/Wikitenaur-Image-Downloader/Wikitenaur-Image-Downloader/curl/include"
 LDFLAGS = -L"D:/a/Wikitenaur-Image-Downloader/Wikitenaur-Image-Downloader/curl/lib" -lcurl
