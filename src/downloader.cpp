@@ -4,6 +4,7 @@
 #include <curl/curl.h>
 #include <sys/stat.h>
 #include <future>
+#include <string>
 
 // Callback function to write data received from the server into a file
 size_t WriteCallback(void* contents, size_t size, size_t nmemb, FILE* userp) {
@@ -65,10 +66,15 @@ std::future<bool> downloadFileAsync(const std::string& filename, const std::stri
 bool createDirectory(const std::string& dirPath) {
     struct stat info;
     if (stat(dirPath.c_str(), &info) != 0) { // Check if directory exists
-        if (mkdir(dirPath.c_str(), 0777) != 0) { // Create directory
-            std::cerr << "Error creating directory: " << dirPath << std::endl;
-            return false; // Return false if directory creation fails
-        }
+#ifdef _WIN32
+    // Windows 환경에서는 두 번째 인수를 제거
+    if (mkdir(dirPath.c_str()) != 0) { // Create directory
+#else
+    if (mkdir(dirPath.c_str(), 0777) != 0) { // Create directory (Linux/Mac)
+#endif
+        std::cerr << "Failed to create directory: " << dirPath << std::endl;
+        return false;
+    }
     } else if (!(info.st_mode & S_IFDIR)) { // Check if it's not a directory
         std::cerr << dirPath << " is not a directory" << std::endl;
         return false; // Return false if path is not a directory
