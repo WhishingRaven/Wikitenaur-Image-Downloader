@@ -93,18 +93,20 @@ If you prefer to build the project manually, follow these steps:
    cmake --build .
    ```
 
-### 3. Windows Users: Modify the Makefile
-If you are building the project on Windows, you need to modify the `Makefile` to set the correct paths for the `CXXFLAGS` and `LDFLAGS` variables. Update the `Makefile` as follows:
-
-```makefile
-CXXFLAGS = -std=c++17 -I<path_to_include>
-LDFLAGS = -L<path_to_lib> -lcurl
-```
-Replace `<path_to_include>` with the path to the `curl` include directory and `<path_to_lib>` with the path to the `curl` library directory.
+### 3. for Windows Users: use make instead of cmake
+1. Create a build directory:
+   ```bash
+   choco install make mingw curl
+   ```
+2. Run CMake to configure the project:
+   ```bash
+   make -f Makefile
+   ```
 
 ## Dependencies
 - C++17 or later
 - CMake
+- make(for Windows)
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
