@@ -16,6 +16,8 @@ Wikitenaur-Image-Downloader
 ├── LICENSE                 # Basic MIT License
 ├── README.md               # Project documentation
 ├── build                   # Build directory for compiled executables
+│   ├── certs               # Certificate CA bundle
+│   ├── main-Windows        # Dynamic Build files for Windows Environment
 │   └── _ImagesList         # Directory containing text files with image URLs
 │       ├── 0
 │       │   └── 00.txt
@@ -25,7 +27,7 @@ Wikitenaur-Image-Downloader
 │       │   └── example.txt
 │       │   └── 1a.txt
 │       │   └── 1b.txt
-        └── ...
+│       └── ...
 ├── src                     # Source files
 │   ├── main.cpp            # Entry point of the application
 │   ├── downloader.cpp      # Implementation of download functions
@@ -45,6 +47,12 @@ If you prefer not to build the project manually, you can download prebuilt execu
 3. Scroll down to the **Artifacts** section at the bottom of the workflow page.
 4. Download the artifact named `main-{OSname}`.
 5. Extract the downloaded file to access the executables for your operating system.
+
+### For Windows Users
+```bash
+cd build/main-Windows
+```
+You can find main.exe and dll dependencies. Keep them in the same directory and execute the main file.
 
 ## Running the Application
 
