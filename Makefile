@@ -1,6 +1,6 @@
 # 컴파일러 및 플래그 설정(Github Action을 위한 경로)
 CXX = g++
-CURL-MINGW = C:/ProgramData/chocolatey/lib/curl/tools/curl-8.13.0_1-win64-mingw
+CURL-MINGW = C:/ProgramData/chocolatey/lib/curl/tools/curl-8.13.0_1-win64-mingw/include
 CXXFLAGS = -std=c++17 -Iinclude -I"$(CURL-MINGW)/include" -static
 LDFLAGS = -static -L"$(CURL-MINGW)/include" -lcurl
 
