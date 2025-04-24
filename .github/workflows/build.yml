@@ -19,7 +19,6 @@ jobs:
 
       - name: Check Chocolatey Path
         run: |
-          # Get-ChildItem -Path "C:/ProgramData/chocolatey/lib" -Recurse -Directory
           ls C:\ProgramData\chocolatey\lib\curl\tools\curl-8.13.0_1-win64-mingw\include
 
       # - name: Download curl.h and dependencies
