@@ -15,8 +15,8 @@ jobs:
 
       - name: Check Chocolatey
         run: |
-          ls C:/ProgramData/chocolatey/lib/curl/tools/curl-8.13.0_1-win64-mingw
-          ls C:/ProgramData/chocolatey/lib/curl/tools/curl-8.13.0_1-win64-mingw/curl
+          ls C:/ProgramData/chocolatey/lib/curl/tools/curl-8.13.0_1-win64-mingw/include
+          ls C:/ProgramData/chocolatey/lib/curl/tools/curl-8.13.0_1-win64-mingw/include/curl
 
       - name: Install dependencies
         run: |
