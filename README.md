@@ -95,7 +95,7 @@ Simply double-click the executable file. The application will prompt you to ente
 
 #### [▶️ Watch on YouTube]
 
-(https://youtu.be/UZkOfjbR15A)
+[![Watch the video](https://img.youtube.com/vi/UZkOfjbR15A/0.jpg)](https://www.youtube.com/watch?v=UZkOfjbR15A)
 
 ### Notes
 - Ensure that the `_ImagesList` and `certs` directory is in the same location as the executable.
