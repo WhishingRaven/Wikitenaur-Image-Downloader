@@ -32,8 +32,8 @@ bool downloadFile(const std::string& filename, const std::string& url, const std
             curl_easy_setopt(curl, CURLOPT_ACCEPT_ENCODING, ""); // allow all kind of encoding(e.g. gzip, deflate)
             curl_easy_setopt(curl, CURLOPT_TCP_NODELAY, 1L); //Reduce Socket Delay
             curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0"); //User-Agent
-            curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 1L);
-            curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 2L);
+            curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+            curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
 
             res = curl_easy_perform(curl); // Perform the file download
 
