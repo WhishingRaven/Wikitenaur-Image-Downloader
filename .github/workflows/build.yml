@@ -13,22 +13,22 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Download and extract static libcurl
         run: |
-          choco install make mingw curl -y --no-progress
+          curl -LO https://curl.se/windows/dl-8.6.0_2/curl-8.6.0_2-win64-mingw.zip
+          tar -xf curl-8.6.0_2-win64-mingw.zip -C .
+          move curl-8.6.0_2-win64-mingw curl
 
       - name: Static build
+        shell: cmd
         run: |
+          set PATH=C:\Program Files\mingw-w64\bin;%PATH%
           set CURL_STATICLIB=1
           make static
 
       - name: Set up environment variables
         run: |
           setx PATH "%PATH%;C:/Program Files/mingw-w64/bin"
-
-      - name: Build with Makefile
-        run: |
-          make -f Makefile
 
       - name: Debug build directory
         run: dir build
