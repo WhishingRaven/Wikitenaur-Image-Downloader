@@ -12,30 +12,40 @@ The Wikitenaur-Image-Downloader is a command-line application that searches for 
 ## Project Structure
 ```
 Wikitenaur-Image-Downloader
-├── CMakeLists.txt          # CMake configuration file
-├── LICENSE                 # Basic MIT License
-├── README.md               # Project documentation
-├── build                   # Build directory for compiled executables
-│   ├── certs               # Certificate CA bundle
-│   ├── main-Windows        # Dynamic Build files for Windows Environment
-│   └── _ImagesList         # Directory containing text files with image URLs
-│       ├── 0
-│       │   └── 00.txt
-│       │   └── 0a.txt
-│       │   └── 0b.txt
-│       ├── 1
-│       │   └── example.txt
-│       │   └── 1a.txt
-│       │   └── 1b.txt
-│       └── ...
-├── src                     # Source files
-│   ├── main.cpp            # Entry point of the application
-│   ├── downloader.cpp      # Implementation of download functions
-│   ├── downloader.h        # Header file for downloader functions
-│   ├── file_utils.cpp      # Utility functions for file operations
-│   └── file_utils.h        # Header file for utility functions
-└── include                 # Header files
-    └── config.h            # Configuration constants
+├── CMakeLists.txt            # CMake configuration file
+├── LICENSE                   # Basic MIT License
+├── README.md                 # Project documentation
+├── build                     # Build directory for compiled executables
+│   ├── _ImagesList           # Directory containing text files with image URLs
+│   │   ├── 0
+│   │   │   └── 00.txt
+│   │   │   └── 0a.txt
+│   │   │   └── 0b.txt
+│   │   ├── 1
+│   │   │   └── 1a.txt
+│   │   │   └── 1b.txt
+│   │   └── ...
+│   ├── certs                 # Certificate CA bundle
+│   │   └── cacert.pem
+│   └── main-Windows          # Dynamic Build files for Windows Environment
+│       ├── _ImagesList
+│       │   └── ...
+│       ├── certs
+│       │   └── ...
+│       ├── libcurl-x64.dll   # DLL Dependencies
+│       ├── libgcc_s_seh-1.dll
+│       ├── libstdc++-6.dll
+│       ├── example.txt
+│       └── main.exe          # Windows Executable
+│
+├── src                       # Source files
+│   ├── main.cpp              # Entry point of the application
+│   ├── downloader.cpp        # Implementation of download functions
+│   ├── downloader.h          # Header file for downloader functions
+│   ├── file_utils.cpp        # Utility functions for file operations
+│   └── file_utils.h          # Header file for utility functions
+└── include                   # Header files
+    └── config.h              # Configuration constants
 ```
 
 ## Downloading Prebuilt Executables
