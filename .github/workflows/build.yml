@@ -15,7 +15,7 @@ jobs:
 
       - name: Check Chocolatey
         run: |
-          find C:/ProgramData/chocolatey -type d
+          Get-ChildItem -Path "C:\ProgramData\chocolatey" -Recurse -Directory
 
       - name: Install dependencies
         run: |
