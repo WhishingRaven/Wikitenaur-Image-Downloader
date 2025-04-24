@@ -95,7 +95,7 @@ If no keyword is provided, the application will prompt you to enter one.
 Simply double-click the executable file. The application will prompt you to enter a keyword.
 
 ### Notes
-- Ensure that the `_ImagesList` directory is in the same location as the executable.
+- Ensure that the `_ImagesList` and `certs` directory is in the same location as the executable.
 - The application will create a directory named after the keyword to save the downloaded images.
 
 ## Building the Project
