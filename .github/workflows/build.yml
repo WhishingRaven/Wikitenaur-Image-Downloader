@@ -13,11 +13,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Download and extract static libcurl
+      - name: Download libcurl (no SSH/QUIC)
         run: |
-          curl -LO https://curl.se/windows/dl-8.6.0_2/curl-8.6.0_2-win64-mingw.zip
-          tar -xf curl-8.6.0_2-win64-mingw.zip -C .
-          move curl-8.6.0_2-win64-mingw curl
+          curl -LO https://curl.se/windows/dl-8.6.0_2/curl-8.6.0_2-win64-mingw-no-ssh.zip
+          tar -xf curl-8.6.0_2-win64-mingw-no-ssh.zip -C .
+          move curl-8.6.0_2-win64-mingw-no-ssh curl
 
       - name: Static build
         shell: cmd
