@@ -20,6 +20,8 @@ Build/*
 !Build/_ImagesList/
 !Build/certs/
 !Build/main-Windows/
+!build/main-Windows/main.exe
+!build/main-Windows/*.dll
 
 # ⚙️ VS Code settings
 .vscode/
