@@ -15,7 +15,7 @@ jobs:
 
       - name: Download libcurl (no SSH/QUIC)
         run: |
-          ls C:/
+          cd C:/
           curl -LO https://curl.se/windows/dl-8.6.0_2/curl-8.6.0_2-win64-mingw-no-ssh.zip
           tar -xf curl-8.6.0_2-win64-mingw-no-ssh.zip -C .
           move curl-8.6.0_2-win64-mingw-no-ssh curl
