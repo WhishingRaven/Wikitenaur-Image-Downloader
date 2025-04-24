@@ -53,6 +53,17 @@ If you prefer not to build the project manually, you can download prebuilt execu
 cd build/main-Windows
 ```
 You can find main.exe and dll dependencies. Keep them in the same directory and execute the main file.
+```bash
+$ ls
+_ImagesList
+certs
+libcurl-x64.dll
+libgcc_s_seh-1.dll
+libstdc++-6.dll
+libwinpthread-1.dll
+main.exe
+```
+
 
 ## Running the Application
 
