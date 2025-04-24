@@ -93,7 +93,7 @@ If no keyword is provided, the application will prompt you to enter one.
 ### Option 3: Double-click the executable
 Simply double-click the executable file. The application will prompt you to enter a keyword.
 
-#### Watch on YouTube
+### Watch on YouTube
 
 [![Watch the video](https://img.youtube.com/vi/UZkOfjbR15A/0.jpg)](https://www.youtube.com/watch?v=UZkOfjbR15A)
 
