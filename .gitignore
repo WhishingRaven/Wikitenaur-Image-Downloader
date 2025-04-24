@@ -16,10 +16,10 @@ CMakeFiles/
 # CMakeCache.txt
 cmake_install.cmake
 # Makefile
-build/
-# Build 폴더 내 cert, _ImagesList, main-Windows는 추적
-!Build/certs/
+Build/*
+# Build 폴더 내 _ImagesList, certs, main-Windows는 추적
 !Build/_ImagesList/
+!Build/certs/
 !Build/main-Windows/
 
 # ⚙️ VS Code settings
