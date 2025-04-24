@@ -74,7 +74,6 @@ libwinpthread-1.dll
 main.exe
 ```
 
-
 ## Running the Application
 
 You can run the application in one of the following ways:
