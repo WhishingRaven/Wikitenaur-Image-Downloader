@@ -13,13 +13,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Check Chocolatey
-        run: |
-          Get-ChildItem -Path "C:\ProgramData\chocolatey" -Recurse -Directory
-
       - name: Install dependencies
         run: |
           choco install make mingw curl -y --no-progress
+
+      - name: Check Chocolatey Path
+        run: |
+          Get-ChildItem -Path "C:\ProgramData\chocolatey" -Recurse -Directory
 
       # - name: Download curl.h and dependencies
       #   run: |
