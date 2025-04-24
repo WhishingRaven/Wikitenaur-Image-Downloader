@@ -2,7 +2,7 @@
 CXX = g++
 CURL-MINGW = C:/ProgramData/chocolatey/lib/curl/tools/curl-8.13.0_1-win64-mingw
 CXXFLAGS = -std=c++17 -DCURL_STATICLIB -Iinclude -I"$(CURL-MINGW)/include"
-LDFLAGS = -static -static-libgcc -static-libstdc++ -L"$(CURL-MINGW)/lib" -lcurl -lws2_32 -lssl -lcrypto -lz -lbcrypt
+LDFLAGS = -static -static-libgcc -static-libstdc++ -L"$(CURL-MINGW)/lib" -lcurl -lws2_32 -lssl -lcrypto -lz
 
 # 소스 파일 및 타겟 설정
 SRC = src/main.cpp src/downloader.cpp src/file_utils.cpp
@@ -26,5 +26,5 @@ clean:
 	rm -rf $(OBJ) $(TARGET)
 
 static: CXXFLAGS += -DCURL_STATICLIB
-static: LDFLAGS += -static -static-libgcc -static-libstdc++ -lws2_32 -lssl -lcrypto -lz -lbcrypt
+static: LDFLAGS += -static -static-libgcc -static-libstdc++ -lws2_32 -lssl -lcrypto -lz
 static: $(TARGET)
