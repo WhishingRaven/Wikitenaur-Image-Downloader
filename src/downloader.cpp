@@ -41,6 +41,8 @@ bool downloadFile(const std::string& filename, const std::string& url, const std
                 // std::cout << "Downloading from URL: " << url << std::endl;
                 // std::cout << "filename: " << filename << std::endl;
                 // std::cerr << "Error downloading file: " << curl_easy_strerror(res) << "\n" << std::endl;
+                std::cerr << "[ERROR] curl_easy_perform failed: " << curl_easy_strerror(res) << std::endl;
+                std::cerr << "URL: " << url << std::endl;
                 fclose(file);
                 curl_easy_cleanup(curl);
                 return false; // Return false if download fails
