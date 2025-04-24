@@ -14,7 +14,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check Chocolatey
-        uses: echo %ChocolateyInstall%
+        run: |
+          echo %ChocolateyInstall%
 
       - name: Install dependencies
         run: |
