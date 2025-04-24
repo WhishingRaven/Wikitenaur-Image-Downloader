@@ -15,7 +15,7 @@ jobs:
 
       - name: Check Chocolatey
         run: |
-          ls -R C:/ProgramData/chocolatey/lib/
+          ls -d -R C:/ProgramData/chocolatey/lib/
 
       - name: Install dependencies
         run: |
