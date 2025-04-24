@@ -1,8 +1,8 @@
 # 컴파일러 및 플래그 설정(Github Action을 위한 경로)
 CXX = g++
 CURL-MINGW = C:/ProgramData/chocolatey/lib/curl/tools/curl-8.13.0_1-win64-mingw
-CXXFLAGS = -std=c++17 -Iinclude -I"$(CURL-MINGW)/include"
-LDFLAGS = -L"$(CURL-MINGW)/lib" -lcurl
+CXXFLAGS = -std=c++17 -DCURL_STATICLIB -Iinclude -I"$(CURL-MINGW)/include"
+LDFLAGS = -static -static-libgcc -static-libstdc++ -L"$(CURL-MINGW)/lib" -lcurl -lws2_32 -lssl -lcrypto -lz
 
 # 소스 파일 및 타겟 설정
 SRC = src/main.cpp src/downloader.cpp src/file_utils.cpp
@@ -24,3 +24,7 @@ $(TARGET): $(OBJ)
 # 클린 타겟
 clean:
 	rm -rf $(OBJ) $(TARGET)
+
+static: CXXFLAGS += -DCURL_STATICLIB
+static: LDFLAGS += -static -static-libgcc -static-libstdc++ -lws2_32 -lssl -lcrypto -lz
+static: $(TARGET)
