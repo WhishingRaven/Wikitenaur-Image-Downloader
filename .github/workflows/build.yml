@@ -15,7 +15,7 @@ jobs:
 
       - name: Check Chocolatey
         run: |
-          echo %ChocolateyInstall%
+          ls C:/ProgramData/chocolatey/
 
       - name: Install dependencies
         run: |
