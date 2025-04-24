@@ -94,11 +94,11 @@ If you prefer to build the project manually, follow these steps:
    ```
 
 ### 3. for Windows Users: use make instead of cmake
-1. Create a build directory:
+1. get libraries using Chocolatey:
    ```bash
    choco install make mingw curl
    ```
-2. Run CMake to configure the project:
+2. Run make to build the project:
    ```bash
    make -f Makefile
    ```
