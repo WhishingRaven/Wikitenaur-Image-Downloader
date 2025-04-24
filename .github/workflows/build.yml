@@ -19,7 +19,7 @@ jobs:
 
       - name: Check Chocolatey Path
         run: |
-          Get-ChildItem -Path "C:\ProgramData\chocolatey" -Recurse -Directory
+          Get-ChildItem -Path "C:/ProgramData/chocolatey/lib" -Recurse -Directory
 
       # - name: Download curl.h and dependencies
       #   run: |
