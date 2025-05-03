@@ -15,13 +15,13 @@ Cod.10825_014r.png -> https://wiktenauer.com/images/e/e0/Cod.10825_014r.png
 Cod.10825_046v.png -> https://wiktenauer.com/images/e/e0/Cod.10825_046v.png
 Cod.10825_122v.png -> https://wiktenauer.com/images/e/e0/Cod.10825_122v.png
 Cod.10825_217v.jpg -> https://wiktenauer.com/images/e/e0/Cod.10825_217v.jpg
-Cod.Guelf.78.2_Aug.2%c2%ba_075v.jpg -> https://wiktenauer.com/images/e/e0/Cod.Guelf.78.2_Aug.2%c2%ba_075v.jpg
-Cod.Guelf.78.2_Aug.2%c2%ba_088v.png -> https://wiktenauer.com/images/e/e0/Cod.Guelf.78.2_Aug.2%c2%ba_088v.png
-Cod.Guelf.83.4_Aug.8%c2%ba_022r.png -> https://wiktenauer.com/images/e/e0/Cod.Guelf.83.4_Aug.8%c2%ba_022r.png
-Cod.Guelf.83.4_Aug.8%c2%ba_023r.png -> https://wiktenauer.com/images/e/e0/Cod.Guelf.83.4_Aug.8%c2%ba_023r.png
-Cod.Guelf.83.4_Aug.8%c2%ba_114r.jpg -> https://wiktenauer.com/images/e/e0/Cod.Guelf.83.4_Aug.8%c2%ba_114r.jpg
+Cod.Guelf.78.2_Aug.2º_075v.jpg -> https://wiktenauer.com/images/e/e0/Cod.Guelf.78.2_Aug.2%c2%ba_075v.jpg
+Cod.Guelf.78.2_Aug.2º_088v.png -> https://wiktenauer.com/images/e/e0/Cod.Guelf.78.2_Aug.2%c2%ba_088v.png
+Cod.Guelf.83.4_Aug.8º_022r.png -> https://wiktenauer.com/images/e/e0/Cod.Guelf.83.4_Aug.8%c2%ba_022r.png
+Cod.Guelf.83.4_Aug.8º_023r.png -> https://wiktenauer.com/images/e/e0/Cod.Guelf.83.4_Aug.8%c2%ba_023r.png
+Cod.Guelf.83.4_Aug.8º_114r.jpg -> https://wiktenauer.com/images/e/e0/Cod.Guelf.83.4_Aug.8%c2%ba_114r.jpg
 Cod.Guelf.1074.Novi_03r.png -> https://wiktenauer.com/images/e/e0/Cod.Guelf.1074.Novi_03r.png
-Cod.I.6.4%c2%ba.3_072r.jpg -> https://wiktenauer.com/images/e/e0/Cod.I.6.4%c2%ba.3_072r.jpg
+Cod.I.6.4º.3_072r.jpg -> https://wiktenauer.com/images/e/e0/Cod.I.6.4%c2%ba.3_072r.jpg
 Cod.Pal.germ.430_004r.png -> https://wiktenauer.com/images/e/e0/Cod.Pal.germ.430_004r.png
 Cod.S.554_093.jpg -> https://wiktenauer.com/images/e/e0/Cod.S.554_093.jpg
 Cod.icon._393_II_081r.jpg -> https://wiktenauer.com/images/e/e0/Cod.icon._393_II_081r.jpg
@@ -34,6 +34,7 @@ MS_26-232_66v.jpg -> https://wiktenauer.com/images/e/e0/MS_26-232_66v.jpg
 MS_78.A.15_24v.jpg -> https://wiktenauer.com/images/e/e0/MS_78.A.15_24v.jpg
 MS_1825_10r.jpg -> https://wiktenauer.com/images/e/e0/MS_1825_10r.jpg
 MS_3227a_20r.jpg -> https://wiktenauer.com/images/e/e0/MS_3227a_20r.jpg
+MS_Arabe_2824_61v.jpg -> https://wiktenauer.com/images/e/e0/MS_Arabe_2824_61v.jpg
 MS_B.26_095r.png -> https://wiktenauer.com/images/e/e0/MS_B.26_095r.png
 MS_B.26_263v.png -> https://wiktenauer.com/images/e/e0/MS_B.26_263v.png
 MS_B.26_283v.png -> https://wiktenauer.com/images/e/e0/MS_B.26_283v.png
@@ -74,5 +75,5 @@ Pisani-Dossi_MS_22a-d.png -> https://wiktenauer.com/images/e/e0/Pisani-Dossi_MS_
 Pisani-Dossi_MS_22b-c.png -> https://wiktenauer.com/images/e/e0/Pisani-Dossi_MS_22b-c.png
 Pisani-Dossi_MS_29a.jpg -> https://wiktenauer.com/images/e/e0/Pisani-Dossi_MS_29a.jpg
 Pozzo_title_9.jpg -> https://wiktenauer.com/images/e/e0/Pozzo_title_9.jpg
-Scienza_d%e2%80%99Arme_(Fabris)_124.jpg -> https://wiktenauer.com/images/e/e0/Scienza_d%e2%80%99Arme_(Fabris)_124.jpg
+Scienza_d’Arme_(Fabris)_124.jpg -> https://wiktenauer.com/images/e/e0/Scienza_d%e2%80%99Arme_(Fabris)_124.jpg
 Verolini_1679_Dussack_A.jpg -> https://wiktenauer.com/images/e/e0/Verolini_1679_Dussack_A.jpg

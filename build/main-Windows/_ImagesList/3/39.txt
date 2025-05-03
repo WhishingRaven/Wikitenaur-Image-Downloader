@@ -1,4 +1,4 @@
-2%c2%ba_Cod.MS.Philos.62_44v.jpg -> https://wiktenauer.com/images/3/39/2%c2%ba_Cod.MS.Philos.62_44v.jpg
+2º_Cod.MS.Philos.62_44v.jpg -> https://wiktenauer.com/images/3/39/2%c2%ba_Cod.MS.Philos.62_44v.jpg
 59-6-2_084.jpg -> https://wiktenauer.com/images/3/39/59-6-2_084.jpg
 Agrippa_1553_10.jpg -> https://wiktenauer.com/images/3/39/Agrippa_1553_10.jpg
 Agrippa_1553_Portrait.png -> https://wiktenauer.com/images/3/39/Agrippa_1553_Portrait.png
@@ -21,9 +21,9 @@ Cod.10825_181r.jpg -> https://wiktenauer.com/images/3/39/Cod.10825_181r.jpg
 Cod.10825_254r.jpg -> https://wiktenauer.com/images/3/39/Cod.10825_254r.jpg
 Cod.10826_020v.png -> https://wiktenauer.com/images/3/39/Cod.10826_020v.png
 Cod.11093_16r.jpg -> https://wiktenauer.com/images/3/39/Cod.11093_16r.jpg
-Cod.I.6.2%c2%ba.5_4v.jpg -> https://wiktenauer.com/images/3/39/Cod.I.6.2%c2%ba.5_4v.jpg
-Cod.I.6.4%c2%ba.2_56r.png -> https://wiktenauer.com/images/3/39/Cod.I.6.4%c2%ba.2_56r.png
-Cod.I.6.4%c2%ba.2_91r.png -> https://wiktenauer.com/images/3/39/Cod.I.6.4%c2%ba.2_91r.png
+Cod.I.6.2º.5_4v.jpg -> https://wiktenauer.com/images/3/39/Cod.I.6.2%c2%ba.5_4v.jpg
+Cod.I.6.4º.2_56r.png -> https://wiktenauer.com/images/3/39/Cod.I.6.4%c2%ba.2_56r.png
+Cod.I.6.4º.2_91r.png -> https://wiktenauer.com/images/3/39/Cod.I.6.4%c2%ba.2_91r.png
 Cod.Pal.germ.430_085r.png -> https://wiktenauer.com/images/3/39/Cod.Pal.germ.430_085r.png
 Cod.icon._393_I_154r.jpg -> https://wiktenauer.com/images/3/39/Cod.icon._393_I_154r.jpg
 Cod.icon._393_I_154v.jpg -> https://wiktenauer.com/images/3/39/Cod.icon._393_I_154v.jpg
@@ -34,7 +34,7 @@ Cod.icon._394a_135r.jpg -> https://wiktenauer.com/images/3/39/Cod.icon._394a_135
 De_Nassavsche_Wapen-Handelinge_van_Schilt,_Spies,_Rappier_end_Targe_21.jpg -> https://wiktenauer.com/images/3/39/De_Nassavsche_Wapen-Handelinge_van_Schilt,_Spies,_Rappier_end_Targe_21.jpg
 Di_Grassi_7.jpg -> https://wiktenauer.com/images/3/39/Di_Grassi_7.jpg
 Hergsell_Ott_6.jpg -> https://wiktenauer.com/images/3/39/Hergsell_Ott_6.jpg
-Heu%c3%9fler_3-7.jpg -> https://wiktenauer.com/images/3/39/Heu%c3%9fler_3-7.jpg
+Heußler_3-7.jpg -> https://wiktenauer.com/images/3/39/Heu%c3%9fler_3-7.jpg
 Hundt_042.jpg -> https://wiktenauer.com/images/3/39/Hundt_042.jpg
 Libr.Pict.A.83_8v.jpg -> https://wiktenauer.com/images/3/39/Libr.Pict.A.83_8v.jpg
 Libr.Pict.A.83_33r.jpg -> https://wiktenauer.com/images/3/39/Libr.Pict.A.83_33r.jpg
@@ -46,7 +46,7 @@ MS_381_04r.jpg -> https://wiktenauer.com/images/3/39/MS_381_04r.jpg
 MS_963_47v.jpg -> https://wiktenauer.com/images/3/39/MS_963_47v.jpg
 MS_963_Cover_2.jpg -> https://wiktenauer.com/images/3/39/MS_963_Cover_2.jpg
 MS_3227a_26v.jpg -> https://wiktenauer.com/images/3/39/MS_3227a_26v.jpg
-MS_A.4%c2%ba.2_57r.jpg -> https://wiktenauer.com/images/3/39/MS_A.4%c2%ba.2_57r.jpg
+MS_A.4º.2_57r.jpg -> https://wiktenauer.com/images/3/39/MS_A.4%c2%ba.2_57r.jpg
 MS_B.26_036r-a.png -> https://wiktenauer.com/images/3/39/MS_B.26_036r-a.png
 MS_B.26_255r.png -> https://wiktenauer.com/images/3/39/MS_B.26_255r.png
 MS_CL23842_132r.jpg -> https://wiktenauer.com/images/3/39/MS_CL23842_132r.jpg
@@ -72,7 +72,7 @@ MS_Latin_11269_03r.jpg -> https://wiktenauer.com/images/3/39/MS_Latin_11269_03r.
 MS_Latin_11269_35r.jpg -> https://wiktenauer.com/images/3/39/MS_Latin_11269_35r.jpg
 MS_Ludwig_XV_13_36v.jpg -> https://wiktenauer.com/images/3/39/MS_Ludwig_XV_13_36v.jpg
 MS_Ludwig_XV_13_42v-a.jpg -> https://wiktenauer.com/images/3/39/MS_Ludwig_XV_13_42v-a.jpg
-MS_Thott.290.2%c2%ba_049r.jpg -> https://wiktenauer.com/images/3/39/MS_Thott.290.2%c2%ba_049r.jpg
+MS_Thott.290.2º_049r.jpg -> https://wiktenauer.com/images/3/39/MS_Thott.290.2%c2%ba_049r.jpg
 MS_Var.82_113v.png -> https://wiktenauer.com/images/3/39/MS_Var.82_113v.png
 Mair's_mounted_fencing_63.png -> https://wiktenauer.com/images/3/39/Mair's_mounted_fencing_63.png
 Mair_dagger_16.jpg -> https://wiktenauer.com/images/3/39/Mair_dagger_16.jpg
@@ -80,6 +80,6 @@ Mair_dagger_43.jpg -> https://wiktenauer.com/images/3/39/Mair_dagger_43.jpg
 Mair_poleaxe_07.jpg -> https://wiktenauer.com/images/3/39/Mair_poleaxe_07.jpg
 Paurenfeyndt_E.png -> https://wiktenauer.com/images/3/39/Paurenfeyndt_E.png
 Pisani-Dossi_MS_12a-d.png -> https://wiktenauer.com/images/3/39/Pisani-Dossi_MS_12a-d.png
-Scienza_d%e2%80%99Arme_(Fabris)_039.jpg -> https://wiktenauer.com/images/3/39/Scienza_d%e2%80%99Arme_(Fabris)_039.jpg
+Scienza_d’Arme_(Fabris)_039.jpg -> https://wiktenauer.com/images/3/39/Scienza_d%e2%80%99Arme_(Fabris)_039.jpg
 Scola_overo_Teatro_ii.jpg -> https://wiktenauer.com/images/3/39/Scola_overo_Teatro_ii.jpg
 Wie_die_Streitbarn_Pferdt_1570_16.jpg -> https://wiktenauer.com/images/3/39/Wie_die_Streitbarn_Pferdt_1570_16.jpg

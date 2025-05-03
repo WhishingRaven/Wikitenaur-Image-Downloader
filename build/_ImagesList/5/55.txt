@@ -1,4 +1,4 @@
-2%c2%ba_Cod.MS.Philos.62_59r.jpg -> https://wiktenauer.com/images/5/55/2%c2%ba_Cod.MS.Philos.62_59r.jpg
+2º_Cod.MS.Philos.62_59r.jpg -> https://wiktenauer.com/images/5/55/2%c2%ba_Cod.MS.Philos.62_59r.jpg
 59-6-2_018.jpg -> https://wiktenauer.com/images/5/55/59-6-2_018.jpg
 Additional_MS_23223_1r.png -> https://wiktenauer.com/images/5/55/Additional_MS_23223_1r.png
 Agrippa_1553_19.jpg -> https://wiktenauer.com/images/5/55/Agrippa_1553_19.jpg
@@ -17,16 +17,16 @@ Cod.10799_001r.jpg -> https://wiktenauer.com/images/5/55/Cod.10799_001r.jpg
 Cod.10825_149v.png -> https://wiktenauer.com/images/5/55/Cod.10825_149v.png
 Cod.10825_192r.png -> https://wiktenauer.com/images/5/55/Cod.10825_192r.png
 Cod.10825_262v.jpg -> https://wiktenauer.com/images/5/55/Cod.10825_262v.jpg
-Cod.Guelf.78.2_Aug.2%c2%ba_005v.jpg -> https://wiktenauer.com/images/5/55/Cod.Guelf.78.2_Aug.2%c2%ba_005v.jpg
-Cod.Guelf.78.2_Aug.2%c2%ba_079r.png -> https://wiktenauer.com/images/5/55/Cod.Guelf.78.2_Aug.2%c2%ba_079r.png
-Cod.Guelf.78.2_Aug.2%c2%ba_093r.jpg -> https://wiktenauer.com/images/5/55/Cod.Guelf.78.2_Aug.2%c2%ba_093r.jpg
+Cod.Guelf.78.2_Aug.2º_005v.jpg -> https://wiktenauer.com/images/5/55/Cod.Guelf.78.2_Aug.2%c2%ba_005v.jpg
+Cod.Guelf.78.2_Aug.2º_079r.png -> https://wiktenauer.com/images/5/55/Cod.Guelf.78.2_Aug.2%c2%ba_079r.png
+Cod.Guelf.78.2_Aug.2º_093r.jpg -> https://wiktenauer.com/images/5/55/Cod.Guelf.78.2_Aug.2%c2%ba_093r.jpg
 Cod.Guelf.125.16.Extrav._5r.png -> https://wiktenauer.com/images/5/55/Cod.Guelf.125.16.Extrav._5r.png
 Cod.Guelf.125.16.Extrav._22v.png -> https://wiktenauer.com/images/5/55/Cod.Guelf.125.16.Extrav._22v.png
-Cod.I.6.2%c2%ba.3_16r.png -> https://wiktenauer.com/images/5/55/Cod.I.6.2%c2%ba.3_16r.png
-Cod.I.6.2%c2%ba.3_43r.png -> https://wiktenauer.com/images/5/55/Cod.I.6.2%c2%ba.3_43r.png
-Cod.I.6.4%c2%ba.2_041r.jpg -> https://wiktenauer.com/images/5/55/Cod.I.6.4%c2%ba.2_041r.jpg
-Cod.I.6.4%c2%ba.2_20v21r.png -> https://wiktenauer.com/images/5/55/Cod.I.6.4%c2%ba.2_20v21r.png
-Cod.I.6.4%c2%ba.2_32v.png -> https://wiktenauer.com/images/5/55/Cod.I.6.4%c2%ba.2_32v.png
+Cod.I.6.2º.3_16r.png -> https://wiktenauer.com/images/5/55/Cod.I.6.2%c2%ba.3_16r.png
+Cod.I.6.2º.3_43r.png -> https://wiktenauer.com/images/5/55/Cod.I.6.2%c2%ba.3_43r.png
+Cod.I.6.4º.2_041r.jpg -> https://wiktenauer.com/images/5/55/Cod.I.6.4%c2%ba.2_041r.jpg
+Cod.I.6.4º.2_20v21r.png -> https://wiktenauer.com/images/5/55/Cod.I.6.4%c2%ba.2_20v21r.png
+Cod.I.6.4º.2_32v.png -> https://wiktenauer.com/images/5/55/Cod.I.6.4%c2%ba.2_32v.png
 Cod.Pal.germ.430_066v.png -> https://wiktenauer.com/images/5/55/Cod.Pal.germ.430_066v.png
 Cod.S.554_082.jpg -> https://wiktenauer.com/images/5/55/Cod.S.554_082.jpg
 Cod.icon._393_II_14r.jpg -> https://wiktenauer.com/images/5/55/Cod.icon._393_II_14r.jpg
@@ -43,6 +43,7 @@ MS_26-232_36r.jpg -> https://wiktenauer.com/images/5/55/MS_26-232_36r.jpg
 MS_26-232_123r.png -> https://wiktenauer.com/images/5/55/MS_26-232_123r.png
 MS_963_19v.jpg -> https://wiktenauer.com/images/5/55/MS_963_19v.jpg
 MS_963_43r.jpg -> https://wiktenauer.com/images/5/55/MS_963_43r.jpg
+MS_Arabe_2824_77r.jpg -> https://wiktenauer.com/images/5/55/MS_Arabe_2824_77r.jpg
 MS_B.26_076v.png -> https://wiktenauer.com/images/5/55/MS_B.26_076v.png
 MS_B.26_101r.png -> https://wiktenauer.com/images/5/55/MS_B.26_101r.png
 MS_B.26_265r.png -> https://wiktenauer.com/images/5/55/MS_B.26_265r.png
@@ -75,7 +76,7 @@ MS_Italien_959_IVr.png -> https://wiktenauer.com/images/5/55/MS_Italien_959_IVr.
 MS_KK5012_28v.jpg -> https://wiktenauer.com/images/5/55/MS_KK5012_28v.jpg
 MS_M.I.29_033r.jpg -> https://wiktenauer.com/images/5/55/MS_M.I.29_033r.jpg
 MS_M.I.29_065v.jpg -> https://wiktenauer.com/images/5/55/MS_M.I.29_065v.jpg
-MS_Thott.290.2%c2%ba_136r.jpg -> https://wiktenauer.com/images/5/55/MS_Thott.290.2%c2%ba_136r.jpg
+MS_Thott.290.2º_136r.jpg -> https://wiktenauer.com/images/5/55/MS_Thott.290.2%c2%ba_136r.jpg
 MS_Var.82_117v.png -> https://wiktenauer.com/images/5/55/MS_Var.82_117v.png
 MS_Var.83_29v.png -> https://wiktenauer.com/images/5/55/MS_Var.83_29v.png
 Mair's_tournament_07.png -> https://wiktenauer.com/images/5/55/Mair's_tournament_07.png

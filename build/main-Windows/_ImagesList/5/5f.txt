@@ -17,11 +17,11 @@ Cod.10825_067v.jpg -> https://wiktenauer.com/images/5/5f/Cod.10825_067v.jpg
 Cod.10826_046r.png -> https://wiktenauer.com/images/5/5f/Cod.10826_046r.png
 Cod.10826_076r.png -> https://wiktenauer.com/images/5/5f/Cod.10826_076r.png
 Cod.10826_077r.png -> https://wiktenauer.com/images/5/5f/Cod.10826_077r.png
-Cod.Guelf.78.2_Aug.2%c2%ba_067v.jpg -> https://wiktenauer.com/images/5/5f/Cod.Guelf.78.2_Aug.2%c2%ba_067v.jpg
-Cod.I.6.2%c2%ba.1_15r.png -> https://wiktenauer.com/images/5/5f/Cod.I.6.2%c2%ba.1_15r.png
-Cod.I.6.2%c2%ba.5_11r.jpg -> https://wiktenauer.com/images/5/5f/Cod.I.6.2%c2%ba.5_11r.jpg
-Cod.I.6.4%c2%ba.2_42r.jpg -> https://wiktenauer.com/images/5/5f/Cod.I.6.4%c2%ba.2_42r.jpg
-Cod.I.6.4%c2%ba.2_51r.png -> https://wiktenauer.com/images/5/5f/Cod.I.6.4%c2%ba.2_51r.png
+Cod.Guelf.78.2_Aug.2º_067v.jpg -> https://wiktenauer.com/images/5/5f/Cod.Guelf.78.2_Aug.2%c2%ba_067v.jpg
+Cod.I.6.2º.1_15r.png -> https://wiktenauer.com/images/5/5f/Cod.I.6.2%c2%ba.1_15r.png
+Cod.I.6.2º.5_11r.jpg -> https://wiktenauer.com/images/5/5f/Cod.I.6.2%c2%ba.5_11r.jpg
+Cod.I.6.4º.2_42r.jpg -> https://wiktenauer.com/images/5/5f/Cod.I.6.4%c2%ba.2_42r.jpg
+Cod.I.6.4º.2_51r.png -> https://wiktenauer.com/images/5/5f/Cod.I.6.4%c2%ba.2_51r.png
 Cod.icon._393_II_100v.jpg -> https://wiktenauer.com/images/5/5f/Cod.icon._393_II_100v.jpg
 Cod.icon._393_II_164r.jpg -> https://wiktenauer.com/images/5/5f/Cod.icon._393_II_164r.jpg
 Cod.icon._393_II_191r.jpg -> https://wiktenauer.com/images/5/5f/Cod.icon._393_II_191r.jpg
@@ -31,7 +31,7 @@ Cod.icon._394a_91r.jpg -> https://wiktenauer.com/images/5/5f/Cod.icon._394a_91r.
 GKS_1868_1_detail_03.jpg -> https://wiktenauer.com/images/5/5f/GKS_1868_1_detail_03.jpg
 GKS_1868_2_detail_03.jpg -> https://wiktenauer.com/images/5/5f/GKS_1868_2_detail_03.jpg
 Giganti_1608_31.png -> https://wiktenauer.com/images/5/5f/Giganti_1608_31.png
-Heu%c3%9fler_1-26a.jpg -> https://wiktenauer.com/images/5/5f/Heu%c3%9fler_1-26a.jpg
+Heußler_1-26a.jpg -> https://wiktenauer.com/images/5/5f/Heu%c3%9fler_1-26a.jpg
 L'arte_di_ben_maneggiare_la_spada_(Alfieri)_04.png -> https://wiktenauer.com/images/5/5f/L'arte_di_ben_maneggiare_la_spada_(Alfieri)_04.png
 Libr.Pict.A.83_4v.jpg -> https://wiktenauer.com/images/5/5f/Libr.Pict.A.83_4v.jpg
 Libr.Pict.A.83_7r.jpg -> https://wiktenauer.com/images/5/5f/Libr.Pict.A.83_7r.jpg

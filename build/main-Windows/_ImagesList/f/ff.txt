@@ -1,4 +1,4 @@
-2%c2%ba_Cod.MS.Philos.62_11r.jpg -> https://wiktenauer.com/images/f/ff/2%c2%ba_Cod.MS.Philos.62_11r.jpg
+2º_Cod.MS.Philos.62_11r.jpg -> https://wiktenauer.com/images/f/ff/2%c2%ba_Cod.MS.Philos.62_11r.jpg
 Cgm_582_126v.jpg -> https://wiktenauer.com/images/f/ff/Cgm_582_126v.jpg
 Cgm_582_187v.jpg -> https://wiktenauer.com/images/f/ff/Cgm_582_187v.jpg
 Cgm_1507_36v.jpg -> https://wiktenauer.com/images/f/ff/Cgm_1507_36v.jpg
@@ -12,14 +12,14 @@ Cod.10825_025v.jpg -> https://wiktenauer.com/images/f/ff/Cod.10825_025v.jpg
 Cod.10825_097r.png -> https://wiktenauer.com/images/f/ff/Cod.10825_097r.png
 Cod.10825_199r.jpg -> https://wiktenauer.com/images/f/ff/Cod.10825_199r.jpg
 Cod.10826_060v.png -> https://wiktenauer.com/images/f/ff/Cod.10826_060v.png
-Cod.Guelf.78.2_Aug.2%c2%ba_150r.jpg -> https://wiktenauer.com/images/f/ff/Cod.Guelf.78.2_Aug.2%c2%ba_150r.jpg
-Cod.Guelf.83.4_Aug.8%c2%ba_076v.png -> https://wiktenauer.com/images/f/ff/Cod.Guelf.83.4_Aug.8%c2%ba_076v.png
-Cod.I.6.2%c2%ba.1_18r.png -> https://wiktenauer.com/images/f/ff/Cod.I.6.2%c2%ba.1_18r.png
-Cod.I.6.2%c2%ba.5_1r.jpg -> https://wiktenauer.com/images/f/ff/Cod.I.6.2%c2%ba.5_1r.jpg
-Cod.I.6.4%c2%ba.2_41v.jpg -> https://wiktenauer.com/images/f/ff/Cod.I.6.4%c2%ba.2_41v.jpg
-Cod.I.6.4%c2%ba.2_45v.png -> https://wiktenauer.com/images/f/ff/Cod.I.6.4%c2%ba.2_45v.png
-Cod.I.6.4%c2%ba.2_102rh.jpg -> https://wiktenauer.com/images/f/ff/Cod.I.6.4%c2%ba.2_102rh.jpg
-Cod.I.6.4%c2%ba.5_05v.jpg -> https://wiktenauer.com/images/f/ff/Cod.I.6.4%c2%ba.5_05v.jpg
+Cod.Guelf.78.2_Aug.2º_150r.jpg -> https://wiktenauer.com/images/f/ff/Cod.Guelf.78.2_Aug.2%c2%ba_150r.jpg
+Cod.Guelf.83.4_Aug.8º_076v.png -> https://wiktenauer.com/images/f/ff/Cod.Guelf.83.4_Aug.8%c2%ba_076v.png
+Cod.I.6.2º.1_18r.png -> https://wiktenauer.com/images/f/ff/Cod.I.6.2%c2%ba.1_18r.png
+Cod.I.6.2º.5_1r.jpg -> https://wiktenauer.com/images/f/ff/Cod.I.6.2%c2%ba.5_1r.jpg
+Cod.I.6.4º.2_41v.jpg -> https://wiktenauer.com/images/f/ff/Cod.I.6.4%c2%ba.2_41v.jpg
+Cod.I.6.4º.2_45v.png -> https://wiktenauer.com/images/f/ff/Cod.I.6.4%c2%ba.2_45v.png
+Cod.I.6.4º.2_102rh.jpg -> https://wiktenauer.com/images/f/ff/Cod.I.6.4%c2%ba.2_102rh.jpg
+Cod.I.6.4º.5_05v.jpg -> https://wiktenauer.com/images/f/ff/Cod.I.6.4%c2%ba.5_05v.jpg
 Cod.Pal.germ.430_059r.png -> https://wiktenauer.com/images/f/ff/Cod.Pal.germ.430_059r.png
 Cod.Pal.germ.430_Cover_2.png -> https://wiktenauer.com/images/f/ff/Cod.Pal.germ.430_Cover_2.png
 Cod.icon._393_II_120r.jpg -> https://wiktenauer.com/images/f/ff/Cod.icon._393_II_120r.jpg
@@ -35,6 +35,8 @@ Libr.Pict.A.83_56r-b.jpg -> https://wiktenauer.com/images/f/ff/Libr.Pict.A.83_56
 MS_014_39r.jpg -> https://wiktenauer.com/images/f/ff/MS_014_39r.jpg
 MS_26-232_29r-c.jpg -> https://wiktenauer.com/images/f/ff/MS_26-232_29r-c.jpg
 MS_3227a_42r.jpg -> https://wiktenauer.com/images/f/ff/MS_3227a_42r.jpg
+MS_Arabe_2824_7r.jpg -> https://wiktenauer.com/images/f/ff/MS_Arabe_2824_7r.jpg
+MS_Arabe_2824_41r.jpg -> https://wiktenauer.com/images/f/ff/MS_Arabe_2824_41r.jpg
 MS_B.26_152r.png -> https://wiktenauer.com/images/f/ff/MS_B.26_152r.png
 MS_B.26_301v.png -> https://wiktenauer.com/images/f/ff/MS_B.26_301v.png
 MS_B.213_217r.jpg -> https://wiktenauer.com/images/f/ff/MS_B.213_217r.jpg
@@ -63,7 +65,7 @@ MS_KK5013_47r.jpg -> https://wiktenauer.com/images/f/ff/MS_KK5013_47r.jpg
 MS_KK5126_49r.jpg -> https://wiktenauer.com/images/f/ff/MS_KK5126_49r.jpg
 MS_KK5126_123v.jpg -> https://wiktenauer.com/images/f/ff/MS_KK5126_123v.jpg
 MS_Ludwig_XV_13_24v-b.jpg -> https://wiktenauer.com/images/f/ff/MS_Ludwig_XV_13_24v-b.jpg
-MS_Thott.290.2%c2%ba_068r.png -> https://wiktenauer.com/images/f/ff/MS_Thott.290.2%c2%ba_068r.png
+MS_Thott.290.2º_068r.png -> https://wiktenauer.com/images/f/ff/MS_Thott.290.2%c2%ba_068r.png
 MS_Var.82_027v.png -> https://wiktenauer.com/images/f/ff/MS_Var.82_027v.png
 MS_Var.82_108v.png -> https://wiktenauer.com/images/f/ff/MS_Var.82_108v.png
 MS_Var.82_123r.png -> https://wiktenauer.com/images/f/ff/MS_Var.82_123r.png

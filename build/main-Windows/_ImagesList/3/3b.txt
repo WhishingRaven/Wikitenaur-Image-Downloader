@@ -14,12 +14,12 @@ Cod.10825_062r.png -> https://wiktenauer.com/images/3/3b/Cod.10825_062r.png
 Cod.10825_126v.png -> https://wiktenauer.com/images/3/3b/Cod.10825_126v.png
 Cod.10825_229r.jpg -> https://wiktenauer.com/images/3/3b/Cod.10825_229r.jpg
 Cod.10826_Cover_7.png -> https://wiktenauer.com/images/3/3b/Cod.10826_Cover_7.png
-Cod.Guelf.78.2_Aug.2%c2%ba_036v.png -> https://wiktenauer.com/images/3/3b/Cod.Guelf.78.2_Aug.2%c2%ba_036v.png
+Cod.Guelf.78.2_Aug.2º_036v.png -> https://wiktenauer.com/images/3/3b/Cod.Guelf.78.2_Aug.2%c2%ba_036v.png
 Cod.Guelf.1074.Novi_07r.png -> https://wiktenauer.com/images/3/3b/Cod.Guelf.1074.Novi_07r.png
-Cod.I.6.2%c2%ba.1_14v.png -> https://wiktenauer.com/images/3/3b/Cod.I.6.2%c2%ba.1_14v.png
-Cod.I.6.2%c2%ba.3_03r.png -> https://wiktenauer.com/images/3/3b/Cod.I.6.2%c2%ba.3_03r.png
-Cod.I.6.4%c2%ba.2_84v.png -> https://wiktenauer.com/images/3/3b/Cod.I.6.4%c2%ba.2_84v.png
-Cod.I.6.4%c2%ba.3_078r.jpg -> https://wiktenauer.com/images/3/3b/Cod.I.6.4%c2%ba.3_078r.jpg
+Cod.I.6.2º.1_14v.png -> https://wiktenauer.com/images/3/3b/Cod.I.6.2%c2%ba.1_14v.png
+Cod.I.6.2º.3_03r.png -> https://wiktenauer.com/images/3/3b/Cod.I.6.2%c2%ba.3_03r.png
+Cod.I.6.4º.2_84v.png -> https://wiktenauer.com/images/3/3b/Cod.I.6.4%c2%ba.2_84v.png
+Cod.I.6.4º.3_078r.jpg -> https://wiktenauer.com/images/3/3b/Cod.I.6.4%c2%ba.3_078r.jpg
 Cod.Pal.germ.430_102r.png -> https://wiktenauer.com/images/3/3b/Cod.Pal.germ.430_102r.png
 Cod.icon._393_II_128r.jpg -> https://wiktenauer.com/images/3/3b/Cod.icon._393_II_128r.jpg
 Cod.icon._393_II_244v.jpg -> https://wiktenauer.com/images/3/3b/Cod.icon._393_II_244v.jpg
@@ -37,6 +37,9 @@ MS_26-232_48r.jpg -> https://wiktenauer.com/images/3/3b/MS_26-232_48r.jpg
 MS_381_07r.jpg -> https://wiktenauer.com/images/3/3b/MS_381_07r.jpg
 MS_963_32v.jpg -> https://wiktenauer.com/images/3/3b/MS_963_32v.jpg
 MS_1825_41v.jpg -> https://wiktenauer.com/images/3/3b/MS_1825_41v.jpg
+MS_Arabe_2824_1r.jpg -> https://wiktenauer.com/images/3/3b/MS_Arabe_2824_1r.jpg
+MS_Arabe_2824_20r.jpg -> https://wiktenauer.com/images/3/3b/MS_Arabe_2824_20r.jpg
+MS_Arabe_2824_69r.jpg -> https://wiktenauer.com/images/3/3b/MS_Arabe_2824_69r.jpg
 MS_B.26_041r.png -> https://wiktenauer.com/images/3/3b/MS_B.26_041r.png
 MS_B.26_055v.png -> https://wiktenauer.com/images/3/3b/MS_B.26_055v.png
 MS_B.26_058v.png -> https://wiktenauer.com/images/3/3b/MS_B.26_058v.png
@@ -58,8 +61,8 @@ MS_KK5126_63v.jpg -> https://wiktenauer.com/images/3/3b/MS_KK5126_63v.jpg
 MS_Latin_11269_17r.jpg -> https://wiktenauer.com/images/3/3b/MS_Latin_11269_17r.jpg
 MS_Latin_11269_36v-a.png -> https://wiktenauer.com/images/3/3b/MS_Latin_11269_36v-a.png
 MS_Latin_11269_44v.jpg -> https://wiktenauer.com/images/3/3b/MS_Latin_11269_44v.jpg
-MS_Thott.290.2%c2%ba_001r.jpg -> https://wiktenauer.com/images/3/3b/MS_Thott.290.2%c2%ba_001r.jpg
-MS_Thott.290.2%c2%ba_006r.jpg -> https://wiktenauer.com/images/3/3b/MS_Thott.290.2%c2%ba_006r.jpg
+MS_Thott.290.2º_001r.jpg -> https://wiktenauer.com/images/3/3b/MS_Thott.290.2%c2%ba_001r.jpg
+MS_Thott.290.2º_006r.jpg -> https://wiktenauer.com/images/3/3b/MS_Thott.290.2%c2%ba_006r.jpg
 MS_U860.F46_1450_14r.jpg -> https://wiktenauer.com/images/3/3b/MS_U860.F46_1450_14r.jpg
 MS_Var.83_27v.png -> https://wiktenauer.com/images/3/3b/MS_Var.83_27v.png
 Mair_dagger_55.jpg -> https://wiktenauer.com/images/3/3b/Mair_dagger_55.jpg
@@ -70,7 +73,7 @@ Pascha_Ringen_7.jpg -> https://wiktenauer.com/images/3/3b/Pascha_Ringen_7.jpg
 Pisani-Dossi_MS_22a-b.png -> https://wiktenauer.com/images/3/3b/Pisani-Dossi_MS_22a-b.png
 Sainct_Didier_11-12.png -> https://wiktenauer.com/images/3/3b/Sainct_Didier_11-12.png
 Saviolo_2.jpg -> https://wiktenauer.com/images/3/3b/Saviolo_2.jpg
-Scienza_d%e2%80%99Arme_(Fabris)_070.jpg -> https://wiktenauer.com/images/3/3b/Scienza_d%e2%80%99Arme_(Fabris)_070.jpg
+Scienza_d’Arme_(Fabris)_070.jpg -> https://wiktenauer.com/images/3/3b/Scienza_d%e2%80%99Arme_(Fabris)_070.jpg
 Sutor_105.jpg -> https://wiktenauer.com/images/3/3b/Sutor_105.jpg
 Wapenhandelinghe_van_Roers_Musquetten_ende_Spiessen_de_Gheyn_Dutch_Title_1607.jpg -> https://wiktenauer.com/images/3/3b/Wapenhandelinghe_van_Roers_Musquetten_ende_Spiessen_de_Gheyn_Dutch_Title_1607.jpg
 Wappenhandelinghe_van_Roers_Musquetten_ende_Spiessen_de_Gheyn_2-30.jpg -> https://wiktenauer.com/images/3/3b/Wappenhandelinghe_van_Roers_Musquetten_ende_Spiessen_de_Gheyn_2-30.jpg
